@@ -2,7 +2,7 @@
 //include 'editor.html';
 $html = file_get_contents('editor.html');
 
-//search for html files in demo and my-pages folders
+//search for html files in demo and my-pages folders 1
 $htmlFiles = glob('{my-pages/*.html,demo/*\/*.html, demo/*.html}',  GLOB_BRACE);
 $files = '';
 foreach ($htmlFiles as $file) { 
